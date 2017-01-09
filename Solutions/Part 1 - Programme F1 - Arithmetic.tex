@@ -2,7 +2,7 @@
 \usepackage{enumitem}
 \setlist[enumerate]{itemsep=1.2em} % increases vertical space between items
 \setlist[enumerate,1]{itemsep=1.2em} % increases vertical space between level 0 and level 1 items
-\setlist[enumerate,2]{itemsep=1.2em} % increases vertical space between level 0 and level 1 items
+\setlist[enumerate,2]{itemsep=1.2em} % increases vertical space between level 1 and level 0 items
 \usepackage{amsmath}
 \usepackage{fancyhdr}
  
@@ -44,7 +44,7 @@ The numbers $-10$, $4$, $0$, $-13$ are of a type called integers.
 %frame 7
 \setcounter{enumi}{6}
 \item
-\begin{enumerate}[label=\textbf{(\alph*)}]
+\begin{enumerate}[label=\textbf{(\alph*)},labelsep=2em]
 \item $(-5) \times 3 = -15$
 \item $12 \div (-6) = -2$
 \item $(-2) \times (-8) = 16$
@@ -421,6 +421,33 @@ so the ratio is
 
 $
 	5:4:1
+$
+
+\item
+The proportions are
+
+$
+	\dfrac{1}{3}, \dfrac{1}{5}, \dfrac{1}{4}
+$
+
+plus the remainder that we need to calculate.
+
+The remainder will be
+
+$
+	1 - \dfrac{1}{3} - \dfrac{1}{5} - \dfrac{1}{4} = \\
+	\dfrac{3 \times 4 \times 5}{3 \times 4 \times 5} -
+	\dfrac{4 \times 5}{3 \times 4 \times 5} - 
+	\dfrac{3 \times 4 }{3 \times 4 \times 5 } - 
+	\dfrac{3 \times 5}{3 \times 4 \times 5} = \\
+	\dfrac{60}{60} - \dfrac{20}{60} - \dfrac{12}{60} - \dfrac{15}{60} = 
+	\dfrac{13}{60}
+$
+
+so the ratio is
+ 
+$
+	20:12:15:13
 $
 
 \end{enumerate}
